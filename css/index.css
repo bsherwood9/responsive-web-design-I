@@ -275,17 +275,15 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     order: 2;
     padding: 5% 0;
+    padding-left: 2%;
+    padding-right: 4%;
   }
   header nav a {
-    padding: 0 5%;
     font-size: 16px;
-  }
-  header nav a:first-child {
-    padding-left: 2%;
   }
   .top-content {
     display: flex;
